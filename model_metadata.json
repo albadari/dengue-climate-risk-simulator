@@ -1,0 +1,17 @@
+{
+    "model_name": "Dengue Climate Risk Simulator",
+    "location": "Makassar, Indonesia",
+    "training_period": "2017-2020",
+    "testing_period": "2021",
+    "features": [
+        "L2_Rainfall",
+        "L2_Rainy_Day",
+        "L2_Humidity",
+        "L2_Temp",
+        "L2_Sunshine"
+    ],
+    "mae": 30.55,
+    "rmse": 43.52,
+    "model_type": "RandomForestRegressor",
+    "status": "Research prototype - not clinically validated"
+}
